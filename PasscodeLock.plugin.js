@@ -29,7 +29,7 @@
                 "type": "added",
                 "title": "What's new",
                 "items": [
-                    "The plugin now has the following localizations: English, Russian, Ukrainian, Dutch, French, German, Spanish. You can help translate the plugin into your language on the Crowdin page, which can be found at the bottom of the plugin settings.",
+                    "Fortnite Battlepass",
                 ]
             }
         ]
