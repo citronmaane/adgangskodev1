@@ -20,7 +20,7 @@
             "version": "1.0",
             "description": "Beskyt dit discord med en adgangskode.",
             github: "https://github.com/ScoobyDoo1337/adgangskodev1",
-            github_raw: "https://raw.githubusercontent.com/arg0NNY/DiscordPlugins/master/PasscodeLock/PasscodeLock.plugin.js"
+            github_raw: "https://raw.githubusercontent.com/ScoobyDoo1337/adgangskodev1/MarcusTheDev/PasscodeLock.plugin.js"
         },
         "changelog": [
             {
