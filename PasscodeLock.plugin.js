@@ -4,6 +4,8 @@
  * @authorLink https://github.com/ScoobyDoo1337/
  * @version 1.0
  * @description Beskyt dit discord med en adgangskode.
+ * @source https://github.com/ScoobyDoo1337/adgangskodev1/blob/MarcusTheDev/PasscodeLock.plugin.js
+ * @updateUrl https://raw.githubusercontent.com/ScoobyDoo1337/adgangskodev1/MarcusTheDev/PasscodeLock.plugin.js
  */
 
  module.exports = (() => {
