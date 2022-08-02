@@ -29,7 +29,7 @@
                 "type": "added",
                 "title": "What's new",
                 "items": [
-                    "Adgangskode v1 er nu online",
+                    "Adgangskode v1 | Er nu online",
                 ]
             }
         ]
@@ -52,9 +52,9 @@
         getVersion() { return config.info.version; }
 
         load() {
-            BdApi.showConfirmationModal("Library Missing", `The library plugin needed for ${config.info.name} is missing. Please click Download Now to install it.`, {
-                confirmText: "Download Now",
-                cancelText: "Cancel",
+            BdApi.showConfirmationModal("Plugin mangler", `Du mangler pluginnet ${config.info.name} for at kunne bruge adgangskode v1.`, {
+                confirmText: "Installer nu",
+                cancelText: "Afbryd",
                 onConfirm: () => {
                     request.get("https://rauenzi.github.io/BDPluginLibrary/release/0PluginLibrary.plugin.js", async (error, response, body) => {
                         if (error) return electron.shell.openExternal("https://betterdiscord.app/Download?id=9");
