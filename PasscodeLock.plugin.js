@@ -29,7 +29,7 @@
                 "type": "added",
                 "title": "What's new",
                 "items": [
-                    "Fortnite Battlepass",
+                    "Adgangskode v1 er nu online",
                 ]
             }
         ]
