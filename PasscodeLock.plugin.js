@@ -29,7 +29,7 @@
                 "type": "added",
                 "title": "What's new",
                 "items": [
-                    "Adgangskode v1 | Er nu online",
+                    "´Fixet Stavefejl",
                 ]
             }
         ]
@@ -144,7 +144,7 @@
                 constructor() {
                     this._names = ['ENTER_PASSCODE', 'ENTER_NEW_PASSCODE', 'RE_ENTER_PASSCODE', 'EDIT_PASSCODE', 'LOCK_DISCORD', 'CODE_TYPE_SETTING', '4DIGIT_NCODE', '6DIGIT_NCODE', 'CUSTOM_NCODE', 'AUTOLOCK_SETTING', 'AUTOLOCK_DESC', 'AUTOLOCK_DISABLED', 'AUTOLOCK_1M', 'AUTOLOCK_5M', 'AUTOLOCK_1H', 'AUTOLOCK_5H', 'LOCK_KEYBIND_SETTING', 'ALWAYS_LOCK_SETTING', 'ALWAYS_LOCK_DESC', 'HIGHLIGHT_TYPING_SETTING', 'HIGHLIGHT_TYPING_DESC', 'NOTIFICATIONS_SETTING', 'NOTIFICATIONS_SETTING_DISABLE', 'NOTIFICATIONS_SETTING_CENSOR', 'NEW_NOTIFICATION', 'NEW_NOTIFICATION_DESC', 'FIRST_SETUP_MESSAGE', 'PASSCODE_UPDATED_MESSAGE', 'PASSCODE_RESET_DEFAULT_MESSAGE', 'PASSCODE_RESET_SECURITY_UPDATE_MESSAGE', 'ATTENTION_MESSAGE'];
                     this.raw = {
-                        'en': ["Skriv din adgangskode", "Vælg en ny kode", "Gentag den nye kode", "Ændre din kode", "Lås Discord", "Kode type", "4-Cifret Kode (Tal)", "6-Cifret Kode (Tal)", "Vælg selv", "Automatisk-Lås", "Kræv adgangskode hvis du er væk i", "Slået fra", "1 Minut", "2 minutter", "1 time", "5 timer", "Lock keybind", "Lås når discord starter", "Låser altid discord, også selvom den ikke var låst da du lukkede det.", "Marker knapper ved indtastning", "Vis de knapper som du trykker på ved indtastning", "Notifikationer når discord er låst", "Slå fra", "Censor", "Ny besked", "Du har 1 ny notifikation", "Opret din adgangskode i indstillinger først.", "Adgangskoden er blevet opdateret.", "Din adgangskode er blevet resat, du skal lave en ny.", "Din adgangskode er blevet resat af sikkerhedsmæssige grunde, lav en ny inde i indstillinger", "### OBS!\n\nDette plugin forhindre folk i at tjekke dine ting igennem, **men** hvis der er nogen som der har adgang til hele din computer og ved hvordan man kan slette pluginet kan det ikke forhindres.."]
+                        'en': ["Skriv din adgangskode", "Vælg en ny kode", "Gentag den nye kode", "Ændre din kode", "Lås Discord", "Kode type", "4-Cifret Kode (Tal)", "6-Cifret Kode (Tal)", "Vælg selv", "Automatisk-Lås", "Kræv adgangskode hvis du er væk i", "Slået fra", "1 Minut", "5 minutter", "1 time", "5 timer", "Lock keybind", "Lås når discord starter", "Låser altid discord, også selvom den ikke var låst da du lukkede det.", "Marker knapper ved indtastning", "Vis de knapper som du trykker på ved indtastning", "Notifikationer når discord er låst", "Slå fra", "Censor", "Ny besked", "Du har 1 ny notifikation", "Opret din adgangskode i indstillinger først.", "Adgangskoden er blevet opdateret.", "Din adgangskode er blevet resat, du skal lave en ny.", "Din adgangskode er blevet resat af sikkerhedsmæssige grunde, lav en ny inde i indstillinger", "### OBS!\n\nDette plugin forhindre folk i at tjekke dine ting igennem, **men** hvis der er nogen som der har adgang til hele din computer og ved hvordan man kan slette pluginet kan det ikke forhindres.."]
                     }
 
                     this.lang = this.generateDict(this._names, this.raw);
